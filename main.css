@@ -2,6 +2,7 @@
   background-color: black;
   width: 400px;
   border: black solid 2px;
+  color: whitesmoke
 
 }
 button {
@@ -21,4 +22,26 @@ button {
 }
 .clear {
   flex-grow: 2.38;
+}
+.operator:active {
+  background-color: #dd8d37;
+}
+.operator:hover {
+  background-color: #dfb07e;
+}
+.operator {
+  background-color: #df974c;
+}
+.norm {
+  background-color: #d8d9db;
+}
+.norm:active {
+  background-color: #bbbcbe;
+}
+.norm:hover {
+  background-color: #ebebeb;
+}
+.display {
+  display: flex;
+  justify-content: flex-end;
 }
