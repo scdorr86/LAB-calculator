@@ -32,7 +32,7 @@ button {
 .operator {
   background-color: #df974c;
 }
-.norm {
+.norm, .clear {
   background-color: #d8d9db;
 }
 .norm:active {
@@ -44,4 +44,10 @@ button {
 .display {
   display: flex;
   justify-content: flex-end;
+}
+.clear:active {
+  background-color: #bbbcbe;
+}
+.clear:hover {
+  background-color: #ebebeb;
 }
