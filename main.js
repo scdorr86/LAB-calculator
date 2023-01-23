@@ -1,25 +1,16 @@
 console.log("lab calculator!")
 
-const oneBtn = document.getElementById("#one")
-const numberBtns = document.querySelectorAll(".norm")
-const operatorBtns = document.querySelectorAll(".operator")
-const clearBtn = document.querySelector(".clear")
-const equalBtn = document.querySelector(".equal")
 const display = document.querySelector(".display")
-const sevenBtn = document.querySelector("#seven")
+const oneBtn = document.querySelector("#one")
+const twoBtn = document.querySelector("#two")
+const threeBtn = document.querySelector("#three")
+let arr=[]
+oneBtn.addEventListener("click", function () {arr.push(oneBtn.innerHTML)})
+twoBtn.addEventListener("click", renderFunc)
 
-console.log(clearBtn)
 
-numberBtns.addEventListener("click", renderFunc)
-clearBtn.addEventListener("click", calcFunc)
-sevenBtn.addEventListener("click", renderFunc)
-oneBtn.addEventListener("click", renderFunc)
-
-function renderFunc () {
-  console.log('hellos')
-  display.innerHTML = sevenBtn.innerText
+function renderFunc() {
+  console.log('hello') 
 }
-
-function calcFunc () {
- console.log('idk if this works')
-}
+console.log(arr)
+console.log(arr)
