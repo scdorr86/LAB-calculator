@@ -15,8 +15,8 @@
     <div class="display">0</div>
     
     <div class="row5">
-      <button id="clear" class="clear">C</button>
-      <button id="backspace" class="norm">&#8592;</button>
+      <button id="clear" class="clear" onclick="display.innerHTML = 0">C</button>
+      <button id="back" class="norm">&#8592;</button>
       <button id="divide" class="operator" onclick="display.innerHTML = '&divide'">&divide;</button>
     </div>
     
@@ -24,13 +24,13 @@
       <button id="seven" class="norm" onclick="display.innerHTML = 7">7</button>
       <button id="eight" class="norm" onclick="display.innerHTML = 8">8</button>
       <button id="nine" class="norm" onclick="display.innerHTML = 9">9</button>
-      <button class="operator" onclick="display.innerHTML = '&times'">&times;</button>
+      <button id="multiply" class="operator" onclick="display.innerHTML = '&times'">&times;</button>
     </div>
     
     <div class="row3">
-      <button id="4" class="norm" onclick="display.innerHTML = 4">4</button>
-      <button id="5" class="norm" onclick="display.innerHTML = 5">5</button>
-      <button id="6" class="norm" onclick="display.innerHTML = 6">6</button>
+      <button id="four" class="norm" onclick="display.innerHTML = 4">4</button>
+      <button id="five" class="norm" onclick="display.innerHTML = 5">5</button>
+      <button id="six" class="norm" onclick="display.innerHTML = 6">6</button>
       <button id="minus" class="operator" onclick="display.innerHTML = '&minus;'">&minus;</button>
     </div>
     
