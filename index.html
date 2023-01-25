@@ -10,39 +10,39 @@
 
 <body>
 
-  <div class="calc">
+  <div id="main" class="calc">
     
-    <div class="display">0</div>
+    <div id="disPlay" class="display">0</div>
     
     <div class="row5">
       <button id="clear" class="clear" onclick="display.innerHTML = 0">C</button>
       <button id="back" class="norm">&#8592;</button>
-      <button id="divide" class="operator" onclick="display.innerHTML = '&divide'">&divide;</button>
+      <button id="op--/" class="operator" onclick="display.innerHTML = '&divide'">&divide;</button>
     </div>
     
     <div class="row4">
-      <button id="seven" class="norm" onclick="display.innerHTML = 7">7</button>
-      <button id="eight" class="norm" onclick="display.innerHTML = 8">8</button>
-      <button id="nine" class="norm" onclick="display.innerHTML = 9">9</button>
-      <button id="multiply" class="operator" onclick="display.innerHTML = '&times'">&times;</button>
+      <button id="num--7" class="norm">7</button>
+      <button id="num--8" class="norm">8</button>
+      <button id="num--9" class="norm">9</button>
+      <button id="op--*" class="operator" onclick="display.innerHTML = '&times'">&times;</button>
     </div>
     
     <div class="row3">
-      <button id="four" class="norm" onclick="display.innerHTML = 4">4</button>
-      <button id="five" class="norm" onclick="display.innerHTML = 5">5</button>
-      <button id="six" class="norm" onclick="display.innerHTML = 6">6</button>
-      <button id="minus" class="operator" onclick="display.innerHTML = '&minus;'">&minus;</button>
+      <button id="num--4" class="norm">4</button>
+      <button id="num--5" class="norm">5</button>
+      <button id="num--6" class="norm">6</button>
+      <button id="op---" class="operator" onclick="display.innerHTML = '&minus;'">&minus;</button>
     </div>
     
     <div class="row2">
-      <button id="one" class="norm" onclick="display.innerHTML = 1">1</button>
-      <button id="two" class="norm" onclick="display.innerHTML = 2">2</button>
-      <button id="three" class="norm" onclick="display.innerHTML = 3">3</button>
-      <button id="plus" class="operator" onclick="display.innerHTML = '&#43;'">&#43;</button>
+      <button id="num--1" class="norm">1</button>
+      <button id="num--2" class="norm">2</button>
+      <button id="num--3" class="norm">3</button>
+      <button id="op--+" class="operator" onclick="display.innerHTML = '&#43;'">&#43;</button>
     </div>
     
     <div class="row1">
-      <button id="zero" class="zero norm" onclick="display.innerHTML = 0">0</button>
+      <button id="num--0" class="zero norm">0</button>
       <button id="equal" class="equal operator">&equals;</button>
     </div>
 
