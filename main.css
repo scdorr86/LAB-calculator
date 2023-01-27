@@ -18,10 +18,10 @@ button {
   justify-content: space-around;
 }
 .zero {
-  flex-grow: 3.499;
+  flex: 56%;
 }
 .clear {
-  flex-grow: 2.38;
+  flex: 69%;
 }
 .operator:active {
   background-color: #dd8d37;
